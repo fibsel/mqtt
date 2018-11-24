@@ -2,8 +2,8 @@ from time import gmtime, strftime
 import paho.mqtt.client as mqtt
 import sqlite3
 
-temperature_topic = "temperature"
-humidity_topic = "humidity"
+temperature_topic = "temp"
+humidity_topic = "hum"
 dbFile = "data.db"
 
 dataTuple = [-1,-1]
